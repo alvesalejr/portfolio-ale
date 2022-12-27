@@ -1,0 +1,18 @@
+.avatar{
+    background-color: var(--brand);
+    padding: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Transitando o Avatar para Esquerda -50% */
+
+}
+
+.avatar img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 2px solid var(--background);
+
+}

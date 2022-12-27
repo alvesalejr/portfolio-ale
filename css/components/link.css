@@ -1,0 +1,16 @@
+.link{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+
+  transition: transform 144ms linear, filter 144ms linear;
+
+ }
+
+.link:hover{
+  transform: translateX(0.5rem);
+  filter: brightness(2);
+  color: var(--brand);
+}

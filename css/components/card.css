@@ -1,0 +1,14 @@
+.card{
+    background-color: var(--background-card);
+    padding: 3.2rem;
+    border-radius: 16px;
+
+}
+
+.card > p {
+    font-size:  1rem;
+}
+
+.card + .card{ /* Do segundo card em diante, todos terão margin-top de 32 */
+  margin-top: 2rem;
+}

@@ -1,0 +1,7 @@
+#userData li a i{
+  font-size: 1.7rem;
+}
+
+.card:has(#userData){
+  padding: 2rem 1rem;
+}

@@ -1,0 +1,12 @@
+@import './utils/variables.css';
+/* @import './utils/normalize.css'; */
+@import './utils/reset.css';
+
+
+@import './components/container.css';
+@import './components/card.css';
+@import './components/user-info.css';
+@import './components/userData.css';
+@import './components/avatar.css';
+@import './components/link.css';
+
